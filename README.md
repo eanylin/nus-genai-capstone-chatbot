@@ -14,6 +14,10 @@ This single chatbot can:
 
 ![chatbot-ui](images/chatbot-ui.png)
 
+
+The demo video recording can be found at this [link](https://drive.google.com/file/d/11Y1__QVhuGFM56crwcZL8jXpS7x6BCIN/view?usp=drive_link).
+
+
 ---
 
 ## 🏗️ Project Architecture
