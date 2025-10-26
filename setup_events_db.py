@@ -40,7 +40,7 @@ def setup_database():
         # Events for tomorrow (Oct 27, 2025)
         ('Gourmet Food Festival', 'indoor', 'Taste dishes from around the world.', 'Food Republic @ VivoCity', TOMORROW_STR),
         ('Theater Show', 'indoor', 'Classical drama', 'Grand Theater', TOMORROW_STR),
-        ('Cybersecurity Asia 2025', 'indoor', 'Tech, ''Marina Bay Sands', TOMORROW_STR),
+        ('Cybersecurity Asia 2025', 'indoor', 'Tech', 'Marina Bay Sands', TOMORROW_STR),
         ('Movies at The Fort', 'outdoor', 'Lifestyle', 'Fort Canning Park', TOMORROW_STR)
     ]
 
