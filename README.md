@@ -43,7 +43,7 @@ This pattern leverages the strengths of different models: **GPT-4 for high-level
 * **LLMs:** OpenAI **GPT-4** (for the main agent) & **GPT-3.5-Turbo** (for the SQL sub-agents)
 * **Image Generation:** OpenAI **DALL-E**
 * **RAG Components:**
-    * **Vector Database:** (FAISS)
+    * **Vector Database:** FAISS
     * **Embedding Models:** OpenAIEmbeddings
     * **Document Loaders / Text Splitters**
 * **LangChain Components:** `create_react_agent`, `create_sql_agent`, `create_retrieval_chain`, `AgentExecutor`, `langchain-openai`
@@ -59,7 +59,7 @@ This pattern leverages the strengths of different models: **GPT-4 for high-level
 
 * Python 3.9
 * An **OpenAI API Key** with access to GPT-4, GPT-3.5-Turbo, DALL-E, and Embedding models.
-* A **Weather API Key** (e.g., from [WeatherAPI](https://www.weatherapi.com/)).
+* A **Weather API Key** from [WeatherAPI](https://www.weatherapi.com/).
 
 ### 2. Installation
 
@@ -160,7 +160,7 @@ Once the application is running, try asking different types of questions to see 
     * "Find all events on 2024-10-26."
 
 * **RAG Knowledge Base Query:**
-    * *(Assuming you loaded project documents)* "Summarize the 'Project Alpha' document for me."
+    * *(Assuming you have uploaded the documents)* "Summarize the 'Project Alpha' document for me."
 
 * **Weather Tool Query:**
     * "What's the weather like in London right now?"
