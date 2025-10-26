@@ -12,6 +12,7 @@ This single chatbot can:
 * ✅ **Generate images** from a text-based prompt using DALL-E.
 * ✅ **Hold a general conversation** for any other queries.
 
+![chatbot-ui](images/chatbot-ui.png)
 
 ---
 
