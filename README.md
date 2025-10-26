@@ -22,7 +22,7 @@ The demo video recording can be found at this [link](https://drive.google.com/fi
 
 ## 🏗️ Project Architecture
 
-This chatbot uses a "hierarchical agent" or "agent-of-agents" pattern. This is a powerful and efficient design that leverages different models and tools for specific tasks.
+This chatbot uses a "hierarchical agent" or "agent-of-agents" pattern which leverages different models and tools for specific tasks.
 
 1.  **Web UI (Streamlit):** The user interacts with a chat interface in `app.py`.
 2.  **Main Agent (GPT-4):** A primary "planner" agent, built using LangChain's `create_react_agent`, receives the user's query and the chat history. **GPT-4** model is chosen for its superior reasoning ability to understand intent and route the request.
