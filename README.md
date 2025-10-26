@@ -62,7 +62,7 @@ This pattern leverages the strengths of different models: **GPT-4 for high-level
 
 ### 1. Prerequisites
 
-* Python 3.9
+* Python 3.9.21
 * An **OpenAI API Key** with access to GPT-4, GPT-3.5-Turbo, DALL-E, and Embedding models
 * A **Weather API Key** from [WeatherAPI](https://www.weatherapi.com/)
 
