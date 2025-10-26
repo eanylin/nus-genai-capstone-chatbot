@@ -144,7 +144,7 @@ Once the application is running, try asking different types of questions to see 
 
 * **Company SQL Agent Query:**
     * "How many people work in the Engineering department?"
-    * "What is Alice Smith's salary?"
+    * "What is Jane Smith's salary?"
     * "List all employees in Sales, ordered by salary."
 
 * **Events Recommender Agent Query:**
@@ -157,7 +157,7 @@ Once the application is running, try asking different types of questions to see 
 
 * **Weather Tool Query:**
     * "What's the weather like in London right now?"
-    * "How is the weather in Tokyo?"
+    * "How is the weather in Singapore?"
 
 * **Image Generation Query:**
     * "Generate an image of a red panda wearing a space helmet."
