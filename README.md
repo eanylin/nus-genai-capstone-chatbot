@@ -71,7 +71,7 @@ This pattern leverages the strengths of different models: **GPT-4 for high-level
 First, clone the repository and navigate into the project directory:
 
 ```bash
-git clone [https://github.com/eanylin/nus-genai-capstone-chatbot.git](https://github.com/eanylin/nus-genai-capstone-chatbot.git)
+git clone https://github.com/eanylin/nus-genai-capstone-chatbot.git
 cd nus-genai-capstone-chatbot
 ```
 
