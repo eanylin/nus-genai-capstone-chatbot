@@ -24,8 +24,8 @@ The demo video recording can be found at this [link](https://drive.google.com/fi
 
 This chatbot uses a "hierarchical agent" or "agent-of-agents" pattern which leverages different models and tools for specific tasks.
 
-1.  **Web UI (Streamlit):** The user interacts with a chat interface in `app.py`.
-2.  **Main Agent (GPT-4):** A primary "planner" agent, built using LangChain's `create_react_agent`, receives the user's query and the chat history. **GPT-4** model is chosen for its superior reasoning ability to understand intent and route the request.
+1.  **Web UI (Streamlit):** The user interacts with a chat interface in `app.py`
+2.  **Main Agent (GPT-4):** A primary "planner" agent, built using LangChain's `create_react_agent`, receives the user's query and the chat history. The **GPT-4** model is chosen for its superior reasoning ability to understand intent and route the request.
 3.  **Tool Dispatch:** The GPT-4 agent's main job is to decide which tool to use. It has five distinct tools available:
     * **`Company SQL Agent` (Agent-as-Tool):** A specialized sub-agent for all company-related questions
     * **`Events Recommender Agent` (Agent-as-Tool):** A specialized sub-agent for all event-related questions
