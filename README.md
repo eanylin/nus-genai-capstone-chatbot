@@ -98,20 +98,8 @@ python setup_events_db.py
 
 Ensure that `company.db` and `events.db` are now present in your directory.
 
-### 4. Setup the Knowledge Base (RAG)
 
-The RAG tool needs a vector database to retrieve from.
-
-1.  Add your source documents (e.g., `.txt`, `.pdf`) to a folder (e.g., `data/`).
-2.  Run the script to load, split, embed, and store these documents in your vector database. *(Note: You may have a script like `setup_rag.py` or this logic might be in another file. Please update this command to match your project.)*
-
-    ```bash
-    # This script will process documents in the 'data/' folder
-    # and create the vector store.
-    python setup_rag.py 
-    ```
-
-### 5. Run the Application
+### 4. Run the Application
 
 You can now launch the Streamlit web application:
 
